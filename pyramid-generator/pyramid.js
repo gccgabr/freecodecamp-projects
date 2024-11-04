@@ -4,5 +4,3 @@ let rows = ["Naomi", "Quincy", "CamperChan"];
 console.log(rows[0]);
 rows[2] = 10;
 rows.push("freeCodeCamp");
-let pushed = rows.push("freeCodeCamp");
-console.log(pushed);
