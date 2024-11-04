@@ -5,3 +5,4 @@ console.log(character);
 let secondCharacter;
 secondCharacter = "Test";
 console.log(secondCharacter);
+secondCharacter = character;
