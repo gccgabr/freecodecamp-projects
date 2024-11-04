@@ -9,7 +9,7 @@ for (let i = 0; i < count; i = i + 1) {
 function padRow() {
 	return  "Hello!";
 }
-const call = padRow();
+const call = padRow(name);
 console.log(call);
 
 let result = "";
