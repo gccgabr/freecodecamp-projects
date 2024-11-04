@@ -6,10 +6,10 @@ for (let i = 0; i < count; i = i + 1) {
 	rows.push(character.repeat(i+1));
 }
 
-function padRow() {
+function padRow(name) {
 	return  name;
 }
-const call = padRow(name);
+const call = padRow("Gabriel");
 console.log(call);
 
 let result = "";
