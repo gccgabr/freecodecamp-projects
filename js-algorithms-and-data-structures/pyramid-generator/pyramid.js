@@ -2,6 +2,8 @@ const character = "#";
 const count = 8;
 const rows = [];
 
+let inverted = true;
+
 for (let i = 1; i <= count; i++) {
 	rows.unshift(padRow(i, count));
 }
