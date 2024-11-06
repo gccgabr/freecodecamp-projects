@@ -8,7 +8,9 @@ for (let i = 0; i < count; i = i + 1) {
 
 function padRow(name) {
 	const test = "Testing";
+	console.log("This works!");
 	return test;
+	console.log("This works!");
 }
 const call = padRow("Gabriel");
 console.log(call);
