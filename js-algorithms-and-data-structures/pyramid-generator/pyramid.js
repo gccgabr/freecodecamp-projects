@@ -6,8 +6,8 @@ let inverted = true;
 
 for (let i = 1; i <= count; i++) {
 	if (inverted) {
+		rows.unshift(padRow(i, count));
 	}
-	rows.unshift(padRow(i, count));
 }
 
 /*
