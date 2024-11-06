@@ -14,9 +14,6 @@ let done = 0;
 
 while (done !== count) {
 	done++;
-	if (done === count) {
-		continueLoop = false;
-	}
 }
 
 rows.push(padRow(done, count));
