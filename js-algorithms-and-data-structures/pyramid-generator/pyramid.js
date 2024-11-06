@@ -7,7 +7,7 @@ for (let i = 0; i < count; i = i + 1) {
 }
 
 function padRow(rowNumber, rowCount) {
-	return " ".repeat(rowCount - rowNumber) + character.repeat(rowNumber) + " ".repeat(rowCount - rowNumber);
+	return " ".repeat(rowCount - rowNumber) + character.repeat(2*rowNumber-1) + " ".repeat(rowCount - rowNumber);
 }
 
 let result = "";
