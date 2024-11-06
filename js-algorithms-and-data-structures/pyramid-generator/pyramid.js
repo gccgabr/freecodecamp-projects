@@ -31,10 +31,3 @@ console.log(result);
 for (const row of rows) {
 	result = result + "\n" + row;
 }
-
-const numbers = [1, 2, 3];
-const unshifted = numbers.unshift(5);
-const shifted = numbers.shift();
-console.log(shifted);
-console.log(numbers);
-console.log(unshifted);
