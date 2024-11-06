@@ -9,6 +9,10 @@ for (let i = 1; i <= count; i++) {
 }
 */
 
+if (true) {
+	console.log("Condition is true");
+}
+
 function padRow(rowNumber, rowCount) {
 	return " ".repeat(rowCount - rowNumber) + character.repeat(2*rowNumber-1) + " ".repeat(rowCount - rowNumber);
 }
