@@ -7,7 +7,7 @@ for (let i = 0; i < count; i = i + 1) {
 }
 
 function padRow(name) {
-	return  name;
+	return  character + name;
 }
 const call = padRow("Gabriel");
 console.log(call);
