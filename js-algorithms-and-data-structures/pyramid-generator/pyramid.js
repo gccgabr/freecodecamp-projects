@@ -1,8 +1,8 @@
-const character = "#";
-const count = 8;
+const character = "!";
+const count = 10;
 const rows = [];
 
-let inverted = true;
+let inverted = false;
 
 for (let i = 1; i <= count; i++) {
 	if (inverted) {
