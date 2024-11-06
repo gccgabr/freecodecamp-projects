@@ -9,10 +9,11 @@ for (let i = 1; i <= count; i++) {
 }
 */
 
-
+/*
 while (rows.length < count) {
 	rows.push(padRow(rows.length+1, count));
 }
+*/
 
 function padRow(rowNumber, rowCount) {
 	return " ".repeat(rowCount - rowNumber) + character.repeat(2*rowNumber-1) + " ".repeat(rowCount - rowNumber);
