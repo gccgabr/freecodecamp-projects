@@ -4,6 +4,7 @@ const rows = [];
 
 for (let i = 1; i <= count; i++) {
 	rows.push(padRow(i, count));
+	// Comment.
 }
 
 function padRow(rowNumber, rowCount) {
