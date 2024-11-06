@@ -34,5 +34,7 @@ for (const row of rows) {
 
 const numbers = [1, 2, 3];
 const unshifted = numbers.unshift(5);
+const shifted = numbers.shift();
+console.log(shifted);
 console.log(numbers);
 console.log(unshifted);
