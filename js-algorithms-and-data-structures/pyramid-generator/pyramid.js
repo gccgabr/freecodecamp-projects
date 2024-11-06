@@ -12,6 +12,9 @@ for (let i = 1; i <= count; i++) {
 let continueLoop = false;
 let done = 0;
 
+while (continueLoop) {
+}
+
 function padRow(rowNumber, rowCount) {
 	return " ".repeat(rowCount - rowNumber) + character.repeat(2*rowNumber-1) + " ".repeat(rowCount - rowNumber);
 }
