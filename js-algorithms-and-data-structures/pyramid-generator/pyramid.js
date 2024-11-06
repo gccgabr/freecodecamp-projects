@@ -15,7 +15,7 @@ while (rows.length < count) {
 	done++;
 }
 
-rows.push(padRow(done, count));
+rows.push(padRow(rows.length+1, count));
 
 function padRow(rowNumber, rowCount) {
 	return " ".repeat(rowCount - rowNumber) + character.repeat(2*rowNumber-1) + " ".repeat(rowCount - rowNumber);
