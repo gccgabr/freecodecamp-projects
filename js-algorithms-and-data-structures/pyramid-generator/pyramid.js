@@ -14,6 +14,8 @@ let done = 0;
 
 while (continueLoop) {
 	done++;
+	if (done == count) {
+	}
 }
 
 function padRow(rowNumber, rowCount) {
