@@ -60,3 +60,6 @@ function buyHealth() {
 
 function buyWeapon() {
 }
+
+function update(location) {
+}
