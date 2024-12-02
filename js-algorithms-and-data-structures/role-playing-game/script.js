@@ -252,3 +252,6 @@ function restart() {
 function winGame() {
 	update(locations[6]);
 }
+
+function getMonsterAttackValue(level) {
+}
