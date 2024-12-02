@@ -100,9 +100,9 @@ const locations = [
 			"REPLAY?"
 		],
 		"button functions": [
-			goTown,
-			goTown,
-			goTown
+			restart,
+			restart,
+			restart
 		],
 		text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;"
 	}
