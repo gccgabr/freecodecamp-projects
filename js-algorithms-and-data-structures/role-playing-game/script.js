@@ -92,6 +92,20 @@ const locations = [
 		],
 		text: "You die. &#x2620;"
 	}
+	{
+		name: "win",
+		"button text": [
+			"REPLAY?",
+			"REPLAY?",
+			"REPLAY?"
+		],
+		"button functions": [
+			goTown,
+			goTown,
+			goTown
+		],
+		text: "You defeat the dragon! YOU WIN THE GAME! &#x1F389;"
+	}
 ];
 
 // initialize buttons
