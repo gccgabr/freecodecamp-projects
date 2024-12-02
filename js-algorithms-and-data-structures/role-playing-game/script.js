@@ -234,3 +234,7 @@ function restart() {
 	xpText.innerText = xp;
 	goTown();
 }
+
+function winGame() {
+	update(locations[6]);
+}
