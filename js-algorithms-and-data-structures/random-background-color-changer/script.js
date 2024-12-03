@@ -13,3 +13,6 @@ const darkColorsArr = [
 
 console.log(Math.floor(darkColorsArr.length * Math.random()));
 const body = document.querySelector("body");
+const bgHexCodeSpanElement = document.querySelector("#bg-hex-code");
+
+console.log(bgHexCodeSpanElement);
