@@ -15,3 +15,5 @@ function isInvalidInput(str) {
 	let regex = /\d+e\d+/i;
 	return str.match(regex);
 }
+
+console.log(isInvalidInput("1e3"));
