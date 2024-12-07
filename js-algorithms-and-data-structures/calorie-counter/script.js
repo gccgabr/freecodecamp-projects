@@ -8,4 +8,5 @@ let isError = false;
 
 function cleanInputString(str) {
 	let regex = /[+-\s]/g;
+	return str.replace(regex, "");
 }
