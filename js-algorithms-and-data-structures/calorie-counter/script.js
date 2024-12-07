@@ -18,5 +18,5 @@ function isInvalidInput(str) {
 
 function addEntry() {
 	let targetInputContainer = document.querySelector(`#${entryDropdown.value} +  .input-container`);
-	let entryNumber = targetInputContainer.querySelectorAll();
+	let entryNumber = targetInputContainer.querySelectorAll('input[type="text"]').length;
 }
