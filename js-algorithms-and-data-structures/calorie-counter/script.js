@@ -11,3 +11,5 @@ function cleanInputString(str) {
 	let regex = /[+-\s]/g;
 	return str.replace(regex, "");
 }
+
+console.log(cleanInputString("+-99"));
