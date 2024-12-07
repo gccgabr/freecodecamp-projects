@@ -10,3 +10,6 @@ function cleanInputString(str) {
 	let regex = /[+-\s]/g;
 	return str.replace(regex, "");
 }
+
+function isInvalidInput(str) {
+}
