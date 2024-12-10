@@ -53,5 +53,6 @@ function calculateCalories(e) {
 	const dinnerNumberInputs = document.querySelectorAll("#dinner input[type='number']");
 	const snacksNumberInputs = document.querySelectorAll("#snacks input[type='number']");
 	const exerciseNumberInputs = document.querySelectorAll("#exercise input[type='number']");
-	let breakfastCalories = getCaloriesFromInputs(breakfastNumberInputs);
+	const breakfastCalories = getCaloriesFromInputs(breakfastNumberInputs);
+	const lunchCalories = getCaloriesFromInputs(lunchNumberInputs);
 }
