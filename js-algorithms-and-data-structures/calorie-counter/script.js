@@ -49,4 +49,5 @@ function calculateCalories(e) {
 	e.preventDefault();
 	isError = false;
 	let breakfastNumberInputs = document.querySelectorAll("#breakfast input[type='number']");
+	let lunchNumberInputs = document.querySelectorAll("#lunch input[type='number']");
 }
