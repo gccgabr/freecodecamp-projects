@@ -41,5 +41,6 @@ function getCaloriesFromInputs(list) {
 			return null;
 		}
 		calories += Number(currVal);
+		return calories;
 	}
 }
