@@ -62,4 +62,5 @@ function calculateCalories(e) {
 	if (isError) {
 		return;
 	}
+	let consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories;
 }
